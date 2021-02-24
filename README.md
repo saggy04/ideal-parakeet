@@ -6,3 +6,8 @@ An application build with binance spot api to render candlestick charts using fr
 **#3** Babel is used as a syntax transformer.
 **#4** Navigate to the file directory and run "$ npm run watch"
 **#5** Then run "$ npm start"
+
+
+
+////////////////////////////////////////////////////////
+for queries contact {Sagnick Biswas : iamsagnick@gmail.com || https://thisissagnick.tech}
