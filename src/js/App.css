@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: rgba(147, 255, 241, 0.15);
+  }
+
+
+/* Navigation Bar */
+.nav {
+  padding: 15px 0;
+  background-color: #222;
+}
+.nav a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  margin: 0 25px;
+  padding: 10px;
+  border: 1px rgba(255,255,255,0.5) solid;
+  transition: all 0.3s linear;
+  text-decoration: none;
+  color: white;
+
+}
+.nav a.selected {
+  background-color: #61DAFB;
+  color: #222;
+}
+.nav a:hover{
+  background-color: #61DAFB;
+}
+  
+  /* Main Component */
+  .App {
+    text-align: center;
+    position: relative;
+    display: "flex";
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  /* Home page */
+  .title{
+    color: #123d9b;
+    font-family: 'Staatliches', cursive;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-top: 2.5rem;
+  }
+  .subTitle{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 1.1rem;
+  }
+
+  /* About Page */
+  .subAbout{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 1.1rem;
+    padding: 1rem 3rem 1rem 3rem;
+    text-align: justify;
+  }
+
+  /* Chart */
+ .tv-lightweight-charts{
+   margin: auto;
+   margin-top: 3rem;
+   box-shadow: 6px 12px 16px rgba(0, 247, 255, 0.6);
+   border-radius: 10px;
+ }
